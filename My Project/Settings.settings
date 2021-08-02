@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Destinatarios" Type="System.String" Scope="User">
+      <Value Profile="(Default)">emunoz@generictransfer.com, andrea.bate@girosyfinanzas.com</Value>
+    </Setting>
+    <Setting Name="waGenericTransferLight_wsUnoEE_WSUNOEE" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.2.82/WSUNOEE/WSUNOEE.asmx</Value>
+    </Setting>
+    <Setting Name="waGenericTransferLight_wsGenerarPlano_wsGenerarPlano" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.2.82/GTIntegration/ServiciosWeb/wsGenerarPlano.asmx</Value>
+    </Setting>
+    <Setting Name="strConexionGT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=192.168.2.82;Initial Catalog=GTIntegration;User ID=gt;Password=gt;Integrated Security=False</Value>
+    </Setting>
+    <Setting Name="smtp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.2.117</Value>
+    </Setting>
+    <Setting Name="MailUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">notificaciones.unoe@girosyfinanzas.com</Value>
+    </Setting>
+    <Setting Name="MailPwd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Un03MaiL</Value>
+    </Setting>
+    <Setting Name="MailPuerto" Type="System.String" Scope="User">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
